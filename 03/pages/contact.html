@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../assets/styles.css" />
+
+    <title>Tienda Maryposaenti - Contacto</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!--  -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--  -->
+        <a class="navbar-brand d-block d-lg-none text-center" href="#">
+          <img src="../assets/img/logo1.png" class="navbar__logo" />
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <!-- Brand -->
+          <a class="navbar-brand d-none d-lg-block" href="#">
+            <img src="../assets/img/logo1.png" class="navbar__logo" />
+          </a>
+
+          <!-- Menu -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">Quien soy</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./rings.html">Anillos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./earring.html">Aros</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- #END NAVBAR -->
+
+    <!-- HERO CONTACT -->
+    <!-- #END HERO CONTACT -->
+
+    <!-- MAIN -->
+    <main>
+      <section class="section-form section p-5">
+        <div class="container">
+          <!-- Section Title -->
+          <div class="row text-center mb-5 section__title">
+            <h2 class="text-uppercase">Formulario de Contacto</h2>
+            <h3 class="text-muted">Envíanos tus dudas</h3>
+          </div>
+
+          <!-- FORM -->
+          <div class="row">
+            <form action="#" method="" name="form" id="form">
+              <!-- 1 Input Name -->
+              <div class="mb-3">
+                <label for="input-username" class="form-label">Nombre</label>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  id="input-username"
+                  placeholder="Nombre"
+                  aria-describedby="username"                  
+                />
+
+                <div id="username-error" class="form-text"></div>
+              </div>
+              <!-- #End Input Name -->
+
+              <!-- 2 Input Phone -->
+              <div class="mb-3">
+                <label for="input-phone" class="form-label">Teléfono</label>
+
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="input-phone"
+                  placeholder="Teléfono"
+                  aria-describedby="phone"                  
+                />
+
+                <div id="phone-error" class="form-text"></div>
+              </div>
+              <!-- #End Input Phone -->
+
+              <!-- 3 Input Email -->
+              <div class="mb-3">
+                <label for="input-email" class="form-label">Email</label>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  id="input-email"
+                  placeholder="Email"
+                  aria-describedby="email"                  
+                />
+
+                <div id="email-error" class="form-text"></div>
+              </div>
+              <!-- #End Input Email -->
+
+              <!-- 4 Input Rut -->
+              <div class="mb-3">
+                <label for="input-rut" class="form-label">Rut</label>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  id="input-rut"
+                  placeholder="Rut"
+                  aria-describedby="rut"
+                />
+
+                <div id="rut-error" class="form-text"></div>
+              </div>
+
+              <!-- 5 Text Area -->
+              <div class="mb-3">
+                <label for="input-message" class="form-label">
+                  Asunto
+                </label>
+
+                <textarea
+                  class="form-control"
+                  id="input-message"
+                  rows=""
+                >
+                </textarea>
+
+                <div id="message-error" class="form-text"></div>
+              </div>
+              <!-- #Text Area -->
+
+              <!-- Btns -->
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="reset" class="btn btn-danger">Limpiar</button>
+
+              <!-- Message Error -->
+              <div class="my-3" id="submit-error"></div>
+            </form>
+          </div>
+          <!-- #End Form -->
+        </div>
+      </section>
+    </main>
+    <!-- #END MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="footer text-center">
+      <div class="footer__section-top">
+        <div class="container">
+          <div class="row p-5">
+            <!-- Footer Info -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Correo</h4>
+
+              <p class="lead mb-0">contacto@maryposaenti.cl</p>
+            </div>
+
+            <!-- Footer Phones-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <h4 class="text-uppercase mb-4">Teléfonos</h4>
+              <p class="lead mb-0">Consultas: +56 9 91234567</p>
+              <p class="lead mb-0">Ventas: +56 9 97654321</p>
+            </div>
+
+            <!-- Footer About Text-->
+            <div class="col-lg-4">
+              <h4 class="text-uppercase mb-4">Videos</h4>
+
+              <p class="lead mb-0">
+                <a href="https://youtu.be/AkK2EWCUuvA">Ideas de Joyería</a> .
+              </p>
+
+              <p class="lead mb-0">
+                <a href="https://youtu.be/LTLlYlOTN9s"
+                  >Como hacer un anillo sin fin</a
+                >
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- #END FOOTER -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../assets/scripts.js"></script>
+  </body>
+</html>
