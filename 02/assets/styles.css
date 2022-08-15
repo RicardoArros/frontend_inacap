@@ -1,0 +1,39 @@
+/* Navbar */
+
+.navbar__logo {
+  width: 6rem;
+}
+
+/* Main Carousel */
+.carousel .carousel-inner {
+}
+
+.carousel__images {
+}
+
+@media (min-width: 992px) {
+  .carousel__images {
+    height: 30rem;
+  }
+}
+
+/* Section Jewels  */
+
+.section {
+}
+
+.section-jewels {
+}
+
+.section-jewels .section__title {
+}
+
+/* Section Form */
+
+/* Footer */
+
+.footer__section-top {
+  background-color: gold;
+}
+
+
